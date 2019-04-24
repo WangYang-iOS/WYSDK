@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WYMethods"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "WYMethods"
   s.description  = "WYMethods是一个常用的工具类集合"
   s.homepage     = "https://github.com/WangYang-iOS/WYSDK"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/WangYang-iOS/WYSDK.git", :tag => s.version }
   s.source_files = "WYMethods/WYSDK.h"
   s.public_header_files = "WYMethods/WYSDK.h"
-  
+
   s.requires_arc = true
   s.frameworks   = "UIKit"
   s.platform     = :ios, "8.0"
