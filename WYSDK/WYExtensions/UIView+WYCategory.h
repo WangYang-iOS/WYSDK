@@ -84,19 +84,6 @@
  */
 - (void)wy_borderWithRadius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(NSString *)colorString;
 
-
-#pragma mark -
-#pragma mark - 计时作业
-
-/**
- *  60 秒倒计时限制交互性
- */
-- (void)wy_userInteractionEnabledControl;
-/**
- *  60 秒倒计时隐藏
- */
-- (void)wy_hiddenControl;
-
 #pragma mark -
 #pragma mark - 关于画线
 
