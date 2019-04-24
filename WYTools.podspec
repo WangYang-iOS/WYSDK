@@ -8,21 +8,21 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "WYSDK"
+  s.name         = "WYTools"
   s.version      = "0.0.2"
-  s.summary      = "WYSDK"
-  s.description  = "WYSDK是一个常用的工具类集合"
+  s.summary      = "WYTools"
+  s.description  = "WYTools是一个常用的工具类集合"
   s.homepage     = "https://github.com/WangYang-iOS/WYSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "WangYang-iOS" => "583702176@qq.com" }
   s.source       = { :git => "https://github.com/WangYang-iOS/WYSDK.git", :tag => s.version }
-  s.source_files = "WYSDK/WYExtensions/**/*"
+  s.source_files = "WYTools/WYExtensions/**/*"
   s.requires_arc = true
   s.frameworks   = "UIKit"
   s.platform     = :ios, "8.0"
 
   s.subspec 'WYExtensions' do |e|
-    e.source_files = "WYSDK/WYExtensions/**/*"
+    e.source_files = "WYTools/WYExtensions/**/*"
   end
   
 end
