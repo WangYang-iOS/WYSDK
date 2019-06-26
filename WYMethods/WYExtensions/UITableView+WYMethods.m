@@ -10,19 +10,19 @@
 
 @implementation UITableView (WYMethods)
 
-- (void)registerCellNib:(NSString *)classString {
+- (void)wy_registerCellNib:(NSString *)classString {
     [self registerNib:[UINib nibWithNibName:classString bundle:nil] forCellReuseIdentifier:classString];
 }
-- (void)registerCellClass:(NSString *)classString {
+- (void)wy_registerCellClass:(NSString *)classString {
     [self registerClass:NSClassFromString(classString) forCellReuseIdentifier:classString];
 }
-- (void)registerCellHeaderFooterNib:(NSString *)classString {
+- (void)wy_registerCellHeaderFooterNib:(NSString *)classString {
     [self registerNib:[UINib nibWithNibName:classString bundle:nil] forHeaderFooterViewReuseIdentifier:classString];
 }
-- (void)registerCellHeaderFooterClass:(NSString *)classString {
+- (void)wy_registerCellHeaderFooterClass:(NSString *)classString {
     [self registerClass:NSClassFromString(classString) forHeaderFooterViewReuseIdentifier:classString];
 }
-- (void)estimatedHeight {
+- (void)wy_estimatedHeight {
     self.estimatedRowHeight = UITableViewAutomaticDimension;
     self.estimatedSectionHeaderHeight = 0;
     self.estimatedSectionFooterHeight = 0;

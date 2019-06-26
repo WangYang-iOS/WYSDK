@@ -10,8 +10,8 @@
 
 @interface UILabel (WYCategory)
 
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(NSString *)textColor;
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment;
-+ (UILabel *)labelWithText:(NSString *)text font:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment;
++ (UILabel *)wy_labelWithFont:(UIFont *)font textColor:(NSString *)textColor;
++ (UILabel *)wy_labelWithFont:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment;
++ (UILabel *)wy_labelWithText:(NSString *)text font:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment;
 
 @end

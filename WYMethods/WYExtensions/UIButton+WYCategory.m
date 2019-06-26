@@ -11,7 +11,7 @@
 
 @implementation UIButton (WYCategory)
 
-+ (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font {
++ (UIButton *)wy_buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setTitle:title forState:UIControlStateNormal];
     [button setTitleColor:[UIColor wy_colorWithHexString:titleColor] forState:UIControlStateNormal];
@@ -19,7 +19,7 @@
     return button;
 }
 
-+ (UIButton *)buttonWithImage:(NSString *)image {
++ (UIButton *)wy_buttonWithImage:(NSString *)image {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
     return button;

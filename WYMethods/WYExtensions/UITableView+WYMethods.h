@@ -10,10 +10,10 @@
 
 @interface UITableView (WYMethods)
 
-- (void)registerCellNib:(NSString *)classString;
-- (void)registerCellClass:(NSString *)classString;
-- (void)registerCellHeaderFooterNib:(NSString *)classString;
-- (void)registerCellHeaderFooterClass:(NSString *)classString;
-- (void)estimatedHeight;
+- (void)wy_registerCellNib:(NSString *)classString;
+- (void)wy_registerCellClass:(NSString *)classString;
+- (void)wy_registerCellHeaderFooterNib:(NSString *)classString;
+- (void)wy_registerCellHeaderFooterClass:(NSString *)classString;
+- (void)wy_estimatedHeight;
 
 @end

@@ -17,8 +17,8 @@ typedef NS_ENUM(NSUInteger, WYButtonEdgeInsetsStyle) {
 
 @interface UIButton (WYCategory)
 
-+ (UIButton *)buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font;
-+ (UIButton *)buttonWithImage:(NSString *)image;
++ (UIButton *)wy_buttonWithTitle:(NSString *)title titleColor:(NSString *)titleColor font:(UIFont *)font;
++ (UIButton *)wy_buttonWithImage:(NSString *)image;
 
 /**
  *  设置button的titleLabel和imageView的布局样式，及间距

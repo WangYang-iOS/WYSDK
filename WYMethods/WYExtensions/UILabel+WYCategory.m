@@ -11,13 +11,13 @@
 
 @implementation UILabel (WYCategory)
 
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(NSString *)textColor {
-    return [UILabel labelWithFont:font textColor:textColor textAlignment:NSTextAlignmentLeft];
++ (UILabel *)wy_labelWithFont:(UIFont *)font textColor:(NSString *)textColor {
+    return [UILabel wy_labelWithFont:font textColor:textColor textAlignment:NSTextAlignmentLeft];
 }
-+ (UILabel *)labelWithFont:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment {
-    return [UILabel labelWithText:nil font:font textColor:textColor textAlignment:textAlignment];
++ (UILabel *)wy_labelWithFont:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment {
+    return [UILabel wy_labelWithText:nil font:font textColor:textColor textAlignment:textAlignment];
 }
-+ (UILabel *)labelWithText:(NSString *)text font:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment {
++ (UILabel *)wy_labelWithText:(NSString *)text font:(UIFont *)font textColor:(NSString *)textColor textAlignment:(NSTextAlignment)textAlignment {
     UILabel *label = [[UILabel alloc] init];
     label.font = font;
     label.textColor = [UIColor wy_colorWithHexString:textColor];
