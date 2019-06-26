@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WYMethods"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "WYMethods"
   s.description  = "WYMethods是一个常用的工具类集合"
   s.homepage     = "https://github.com/WangYang-iOS/WYSDK"
